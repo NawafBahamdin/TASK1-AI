@@ -40,12 +40,12 @@
 ### 2.1.2 Launch Simulation World
 
 #### 2.1.2.1 Empty World
-![](file:///C:/Users/PC/Desktop/%D8%B5%D9%88%D8%B1%D8%A91.png)
+![Picture 1](https://a.top4top.io/p_2027cuj0o1.png)
 * `$ export TURTLEBOT3_MODEL=burger`
 * `$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch`
 
 #### 2.1.2.2 TurtleBot3 World
-![](file:///C:/Users/PC/Desktop/%D8%B5%D9%88%D8%B1%D8%A92.png)
+![Picture 2](https://i.top4top.io/p_2027hse291.png)
 * `$ export TURTLEBOT3_MODEL=waffle`
 * `$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`
 
@@ -54,14 +54,15 @@
 ### 2.2.1 Launch Simulation World
 * `$ export TURTLEBOT3_MODEL=burger`
 * `$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`
-![](file:///C:/Users/PC/Desktop/%D8%B5%D9%88%D8%B1%D8%A92.png)
+
+![Picture 2](https://i.top4top.io/p_2027hse291.png)
 
 ### 2.2.2 Run SLAM Node
 * `$ export TURTLEBOT3_MODEL=burger`
 * `$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`
-![](file:///C:/Users/PC/Desktop/%D8%B5%D9%88%D8%B1%D8%A94.png)
+![Picture 3](https://j.top4top.io/p_2027wm6nl2.png)
 
 ### 2.2.3 Run Teleoperation Node
 * `$ export TURTLEBOT3_MODEL=burger`
 * `$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`
-![](file:///C:/Users/PC/Desktop/%D8%B5%D9%88%D8%B1%D8%A95.png)
+![Picture 4](https://k.top4top.io/p_2027tzct73.png)
