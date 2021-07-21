@@ -60,11 +60,14 @@
 ### 2.2.2 Run SLAM Node
 * `$ export TURTLEBOT3_MODEL=burger`
 * `$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`
-
 ![Picture 3](https://j.top4top.io/p_2027wm6nl2.png)
 
 ### 2.2.3 Run Teleoperation Node
 * `$ export TURTLEBOT3_MODEL=burger`
 * `$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`
-
 ![Picture 4](https://k.top4top.io/p_2027tzct73.png)
+
+### 2.2.4 Save Map
+* `$ rosrun map_server map_saver -f ~/map`
+
+![Picture 3](https://j.top4top.io/p_2027wm6nl2.png)
